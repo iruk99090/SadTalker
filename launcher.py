@@ -18,6 +18,10 @@ script_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 
 if 'GRADIO_ANALYTICS_ENABLED' not in os.environ:
     os.environ['GRADIO_ANALYTICS_ENABLED'] = 'False'
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+/**
 
 
 def check_python_version():
